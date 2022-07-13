@@ -1,4 +1,4 @@
 
 [build]
- command = "npm build"
+ CI = "npm run build"
  publish = "_site"
