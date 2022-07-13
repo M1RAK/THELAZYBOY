@@ -1,4 +1,0 @@
-[NODE_VERSION] = 8.13.2
-
-[build]
-   NODE_VERSION=16 NODE_ENV=production ; build npm run build
