@@ -1,2 +1,5 @@
 [NODE_VERSION] = 8.13.2
 
+[build]
+  # Default build command.
+  command = "npm prod"
