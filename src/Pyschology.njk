@@ -1,0 +1,24 @@
+---
+layout: "base.njk"
+title: POSTSPAGE
+---
+       
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="PYSCHOLOGY ">PYSCHOLOGY</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+      
+               {%- for post in collections.pyschology -%}
+      
+                {% include "article-snippet.njk" %}
+                {%- endfor -%}
+                
+            </div>  
+
+        </div>
+
+    </section>
+    </main>

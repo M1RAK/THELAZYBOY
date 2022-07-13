@@ -1,0 +1,27 @@
+---
+layout: "base.njk"
+title: POSTSPAGE
+---
+       <!-- Older posts -->
+    <section class="older-posts section">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="PUBLISHED ">PUBLISHED BLOGS</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+      
+               {%- for post in collections.post -%}
+      
+                {% include "article-snippet.njk" %}
+
+                {%- endfor -%}
+                
+            </div>  
+
+        </div>
+
+    </section>
+    </main>
+
+  

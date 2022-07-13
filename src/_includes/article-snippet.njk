@@ -1,0 +1,18 @@
+<a href="{{ post.url }}" class="article d-grid">
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>{{ post.date | postDate }}</span>
+                            <span class="article-data-spacer"></span>
+                            <span>{{ post.data.length}}</span>
+                        </div>
+
+                        <h3 class="title article-title">{{ post.data.title }}</h3>
+                        <p class="article-description">{{post.data.description}}</p>
+
+                    </div>
+                </a>

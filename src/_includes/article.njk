@@ -1,0 +1,50 @@
+---
+layout: "base.njk"
+title: SINGLE POST
+---
+
+<section class="blog-post section-header-offset">
+  <div class="blog-post-container container">
+    <div class="blog-post-data">
+      <h3 class="title blog-post-title">{{ title }}</h3>
+      <div class="article-data">
+        <span>{{ date }}</span>
+        <span class="article-data-spacer"></span>
+        <span>{{ length }}</span>
+      </div>
+      <img src="{{ image }}" alt="{{ imageAlt }}" />
+    </div>
+
+    <div class="container">
+      
+      {{ content | safe}}
+      
+      <div class="author d-grid">
+        <div class="author-image-box">
+          <img src="{{ image }}" alt="" class="article-image" />
+        </div>
+        <div class="author-about">
+          <h3 class="author-name">{{ author }}</h3>
+          <p>
+            {{ author-about }}
+          </p>
+          <ul class="list social-media">
+            <li class="list-item">
+              <a href="#" class="list-link"
+                ><i class="ri-instagram-line"></i
+              ></a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link"
+                ><i class="ri-facebook-circle-line"></i
+              ></a>
+            </li>
+            <li class="list-item">
+              <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
