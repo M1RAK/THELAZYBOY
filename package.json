@@ -7,6 +7,9 @@
     "start": "eleventy --serve",
     "build": "eleventy"
   },
+  "dependencies": {
+    "@11ty/eleventy": "^1.01"
+  },
   "keywords": [],
   "author": "EL-CHE",
   "license": "ISC"
