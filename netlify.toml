@@ -1,5 +1,4 @@
 [NODE_VERSION] = 8.13.2
 
 [build]
-  # Default build command.
-  command = "npm prod"
+   NODE_VERSION=16 NODE_ENV=production ; build npm run build
