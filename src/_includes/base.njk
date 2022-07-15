@@ -4,6 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> {{ title | slug }} </title>
+    <!--CONTENT MANAGER -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <!-- Favicon -->
     <link
       rel="icon"
@@ -32,5 +34,17 @@
     <script src="/assets/js/swiper-bundle.js"></script>
     <!-- Custom script -->
     <script src="/assets/js/main.js"></script>
+    <!--CONTENT MANAGER -->
+    <script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 </body>
 </html>
