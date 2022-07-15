@@ -1,5 +1,7 @@
+/* Import font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
+/* Custom properties */
 :root {
   --light-color: #fff;
   --light-color-alt: #afb6cd;
@@ -7,7 +9,7 @@
   --secondary-background-color: #252830;
   --hover-light-color: var(--light-color);
   --hover-dark-color: var(--primary-background-color);
-  --gradient-color: linear-gradient(115deg, #252830, #a767e5, #12bcfe);
+  --gradient-color: linear-gradient(115deg, rgb(34, 100, 198), #fff);
   --transparent-light-color: rgba(255, 255, 255, 0.05);
   --transparent-dark-color: rgba(0, 0, 0, 0.75);
   --font-family: "Poppins", sans-serif;
@@ -23,6 +25,7 @@
   --item-min-height-md: 30rem;
 }
 
+/* Base styles */
 * {
   margin: 0;
   padding: 0;
@@ -66,29 +69,17 @@ button {
 i {
   font-size: var(--font-size-md);
 }
-
-.list-link.current {
-  color: rgb(0, 10, 40);
-}
-
-.logo:hover,
-.list-link:hover,
-.btn:hover,
-.btn:hover span {
-  color: rgb(0, 10, 40);
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
-}
-
+/* Theme color change */
 body.light-theme {
   --light-color: #3d3d3d;
   --light-color-alt: rgba(0, 0, 0, 0.6);
   --primary-background-color: #fff;
   --secondary-background-color: #f1f1f1;
-  --hover-light-color: #fff;
+  --hover-light-color: rgb(28, 112, 185);
   --transparent-dark-color: var(--secondary-background-color);
   --transparent-light-color: rgba(0, 0, 0, 0.1);
 }
-
+/* Reusable classes */
 .container {
   max-width: 160rem;
   margin: 0 auto;
@@ -112,7 +103,7 @@ body.light-theme {
 .screen-sm-hidden {
   display: none;
 }
-
+/* Header */
 .header {
   background-color: var(--secondary-background-color);
   position: fixed;
@@ -130,13 +121,22 @@ body.light-theme {
 }
 
 .logo {
-  font-size: var(--font-size-md);
-  color: var(--light-color);
-  margin-right: 3em;
+  font-family: cursive;
+  font-weight: 900;
+  font-size: 3rem;
+  color: var(--primary-background-color);
+  transform: skew(-5deg, -5deg), rotate(5deg);
+  -webkit-transform: skew(-5deg, -5deg), rotate(5deg);
+  transform-origin: center center;
+  -webkit-transform-origin: center center;
+  text-shadow: 1px 1px #000, 2px 2px #000, 3px 3px #000, 4px 4px #000,
+    5px 5px #000, 6px 6px #000, 7px 7px #000,
+    8px 8px var(--secondary-background-color),
+    9px 9px var(--secondary-background-color),
+    10px 10px var(--secondary-background-color),
+    11px 11px 15px rgba(0, 0, 0, 0.5);
 }
-.logo:hover {
-  color: royalblue;
-}
+
 .menu {
   position: absolute;
   top: 8.5rem;
@@ -171,10 +171,17 @@ body.light-theme {
   cursor: pointer;
 }
 
+.logo:hover {
+  color: var(--hover-light-color);
+}
+
+.place-items-center:hover,
 .list-link:hover,
 .btn:hover,
 .btn:hover span {
-  color: var(--light-color);
+  color: var(--hover-light-color);
+  transform: scale(1.03);
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.6);
 }
 
 .moon-icon {
@@ -188,9 +195,9 @@ body.light-theme {
 .light-theme .moon-icon {
   display: block;
 }
-
+/* Header JavaScript Styles */
 .header.activated {
-  box-shadow: 0 1px 0.5rem var(--transparent-light-color);
+  box-shadow: 12px 1px 0.5rem royalblue;
 }
 
 .menu.activated {
@@ -207,6 +214,7 @@ body.light-theme {
   display: block;
 }
 
+/* Search */
 .search-form-container {
   width: 100%;
   max-width: 100%;
@@ -273,11 +281,13 @@ body.light-theme {
   display: flex;
 }
 
+/* Form JavaScript styles */
 .search-form-container.activated {
   opacity: 1;
   transform: scale(1);
 }
 
+/* Featured articles */
 .featured-articles {
   padding-block: 2rem;
 }
@@ -336,7 +346,7 @@ body.light-theme {
   z-index: 10;
   display: inline-flex;
   background-color: var(--secondary-background-color);
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 1.5rem;
 }
 
 .article {
@@ -375,6 +385,7 @@ body.light-theme {
   transition: background-color 0.5s;
 }
 
+/* Light theme color hover styles */
 .article:hover .article-data-container {
   background-color: var(--hover-dark-color);
   color: var(--hover-light-color);
@@ -411,6 +422,7 @@ body.light-theme {
   font-size: var(--font-size-md);
 }
 
+/* Sidebar */
 .sidebar {
   background-color: var(--secondary-background-color);
   padding: 2.5rem;
@@ -457,9 +469,10 @@ body.light-theme {
 }
 
 .trending-news-box:hover .article-title {
-  color: var(--light-color-alt);
+  color: var(--hover-light-color);
 }
 
+/* Quick read */
 .section-title {
   position: relative;
   font-size: var(--font-size-md);
@@ -480,6 +493,7 @@ body.light-theme {
   height: 40rem;
 }
 
+/* Quick read - Swiper */
 .swiper-wrapper {
   height: auto;
 }
@@ -502,6 +516,7 @@ body.light-theme {
   background-color: var(--light-color);
 }
 
+/* Older posts */
 .older-posts-grid-wrapper {
   gap: var(--gap);
 }
@@ -509,7 +524,6 @@ body.light-theme {
 .older-posts-article-image-wrapper,
 .older-posts .article {
   min-height: var(--item-min-height-sm);
-  max-height: min-content;
 }
 
 .older-posts .article {
@@ -549,6 +563,7 @@ body.light-theme {
   transform: translateX(0.5rem);
 }
 
+/* Popular tags */
 .popular-tags-container {
   gap: var(--gap);
 }
@@ -579,6 +594,7 @@ body.light-theme {
   transform: scale(1.05);
 }
 
+/* Newsletter */
 .newsletter {
   padding-bottom: 6rem;
 }
@@ -591,6 +607,7 @@ body.light-theme {
   margin-bottom: 3rem;
 }
 
+/* Footer */
 .footer {
   background-color: var(--secondary-background-color);
 }
@@ -629,6 +646,7 @@ body.light-theme {
   margin-bottom: var(--margin-sm);
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 1rem;
 }
@@ -645,6 +663,7 @@ body.light-theme {
   background: #2e303b;
 }
 
+/* Blog post */
 .blog-post {
   padding-bottom: 5rem;
 }
@@ -729,17 +748,6 @@ body.light-theme {
   margin-bottom: 0;
 }
 
-@media (max-width: 600px) {
-  .logo-img {
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    margin: 0;
-  }
-  .logo {
-    font-size: var(--font-size-sm);
-  }
-}
 @media screen and (min-width: 700px) {
   .trending-news-box {
     flex-direction: row;
@@ -779,8 +787,8 @@ body.light-theme {
 
 @media screen and (min-width: 768px) {
   .featured-content {
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 5rem repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 5rem repeat(4, 1fr);
   }
 
   .headline-banner {
@@ -841,6 +849,7 @@ body.light-theme {
     padding: 4px;
   }
 
+  /* Fancy button animation effect */
   .btn.fancy-border:hover::before {
     animation: animate_border 0.75s linear infinite;
   }

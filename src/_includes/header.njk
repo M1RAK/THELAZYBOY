@@ -3,7 +3,7 @@
     <header class="header">
       <nav class="navbar container" id="navbar">
         <a href="/">
-          <h2 class="logo"> LAZYBOY</h2>
+          <h2 class="logo">THELAZYBOY</h2>
         </a>
         <div class="menu" id="menu">
           <ul class="list">
@@ -11,19 +11,22 @@
               <a href="/" class="list-link current">HOME</a>
             </li>
             <li class="list-item">
-              <a href="#" class="list-link">REDPILL</a>
+              <a href="/redpill" class="list-link">REDPILL</a>
             </li>
             <li class="list-item">
-              <a href="#" class="list-link">PYSCHOLOGY</a>
+              <a href="/pyschology" class="list-link">PYSCHOLOGY</a>
             </li>
             <li class="list-item">
-              <a href="#" class="list-link">SPIRITUALITY</a>
+              <a href="/spirituality" class="list-link">SPIRITUALITY</a>
             </li>
             <li class="list-item">
-              <a href="#" class="list-link">LIFESTYLE</a>
+              <a href="/lifestyle" class="list-link">LIFESTYLE</a>
+            </li>
+            <li class="list-item">
+              <a href="/404" class="list-link">RESOURCES</a>
             </li>
             <li class="list-item screen-lg-hidden">
-              <a href="./signin.html" class="list-link">BLOGS</a>
+              <a href="/404" class="list-link">BLOGS</a>
             </li>
             {# <li class="list-item screen-lg-hidden">
               <a href="./signup.html" class="list-link">@LAZYLINK</a>
@@ -58,24 +61,21 @@
     </header>
 
     <!-- Search -->
-    <div class="search-form-container container" id="search-form-container">
-      <div class="form-container">
-        <form action="" class="form">
-          <input
-            class="form-input"
-            type="text"
-            placeholder="What are you looking for?"
-          />
-          <button class="btn form-btn icon-box" type="submit">
-            <i class="ri-search-line"></i>
-          </button>
-        </form>
-        <span class="form-note">Or press ESC to close.</span>
-      </div>
-      <div
-        class="btn form-close-btn icon-box place-items-center"
-        id="form-close-btn"
-      >
-        <i class="ri-close-line"></i>
-      </div>
+   <div class="search-form-container container" id="search-form-container">
+
+        <div class="form-container-inner">
+
+            <form action="" class="form">
+                <input class="form-input" type="text" placeholder="Enter your search?">
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+            <span class="form-note">Or press ESC to close.</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
     </div>
