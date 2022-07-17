@@ -10,6 +10,15 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED)
   })
 
+  eleventyConfig.addFilter("filterRelated", (collection = [], related = []) => {
+    const filtered = collection.filter((page) =>
+      related.includes(page.fileSlug)
+    )
+    return filtered.sort(
+      (a, b) => related.indexOf(a.fileSlug) - related.indexOf(b.fileSlug)
+    )
+  })
+
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
 
   // Import prior to `module.exports` within `.eleventy.js`
@@ -37,7 +46,7 @@ module.exports = function (eleventyConfig) {
   }
 }
 
-//  eleventyConfig.addFilter(
-//    "relative",
-//    (page, root = "/") => `${require("path").relative(page.filePathStem, root)}/`
-//  )
+// eleventyConfig.addFilter(
+//   "relative",
+//   (page, root = "/") => `${require("path").relative(page.filePathStem, root)}/`
+// )

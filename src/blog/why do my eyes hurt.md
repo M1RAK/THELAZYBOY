@@ -1,5 +1,5 @@
 ---
-title: THE BASICS OF THE REDPILL
+title: WHY DO MY EYES HURT?
 author: ARA
 date: 2022-07-13
 length: 7 MIN READ

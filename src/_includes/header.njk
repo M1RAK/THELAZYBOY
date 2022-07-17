@@ -2,8 +2,9 @@
     <!-- Header -->
     <header class="header">
       <nav class="navbar container" id="navbar">
-        <a href="/">
-          <h2 class="logo">THELAZYBOY</h2>
+        <a class="favicon" href="/">
+        <img class="fav" src="/assets/images/THELAZYBOY.svg" alt="LOGO">
+          <h2 class="logo">THELAZYBOY</h2> 
         </a>
         <div class="menu" id="menu">
           <ul class="list">
@@ -53,9 +54,9 @@
           </div>
 
           <a href="#" class="list-link screen-sm-hidden">Sign in</a>
-          <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+          {# <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
             <span>Sign up</span>
-          </a>
+          </a> #}
         </div>
       </nav>
     </header>
@@ -65,12 +66,19 @@
 
         <div class="form-container-inner">
 
-            <form action="" class="form">
+            <div class="form">
+              
+              <a href="" target="_blank" hidden></a>
                 <input class="form-input" type="text" placeholder="Enter your search?">
+                
                 <button class="btn form-btn" type="submit">
                     <i class="ri-search-line"></i>
                 </button>
-            </form>
+                 <div class="autocom-box">
+                 <!-- here list are inserted from javascript --> 
+                </div>
+            </div>
+          
             <span class="form-note">Or press ESC to close.</span>
 
         </div>

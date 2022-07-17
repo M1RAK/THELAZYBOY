@@ -1,5 +1,5 @@
 ---
-title: My Third Article
+title: THE HERMETIC PRINCIPLES
 author: Kevin Powell
 date: 2021-05-28
 tags: ['post', 'featured']

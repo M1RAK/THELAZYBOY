@@ -1,5 +1,5 @@
 ---
-title: God forgive me
+title: THE WAY OF MEN
 author: Kevin Powell
 date: 2021-06-01
 image: \assets\images\older_posts\older_posts_4.jpg

@@ -8,7 +8,7 @@ title: SINGLE POST
     <div class="blog-post-data">
       <h3 class="title blog-post-title">{{ title }}</h3>
       <div class="article-data">
-        <span>{{ date }}</span>
+        <span>{{ page.date | postDate }}</span>
         <span class="article-data-spacer"></span>
         <span>{{ length }}</span>
       </div>
@@ -46,5 +46,6 @@ title: SINGLE POST
         </div>
       </div>
     </div>
-  </div>
+    {% include "relatedarticles.njk" %}
 </section>
+{% include "comments.njk" %}

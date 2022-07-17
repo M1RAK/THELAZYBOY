@@ -1,5 +1,5 @@
 ---
-title: God forgive me
+title: PLATE SPINNING THEORY
 author: Kevin Powell
 date: 2021-06-01
 image: \assets\images\older_posts\older_posts_4.jpg

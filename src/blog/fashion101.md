@@ -1,5 +1,5 @@
 ---
-title: My Second Article
+title: FASHION 101
 author: Kevin Powell
 date: 2021-05-15
 length: 3 MIN READ

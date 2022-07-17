@@ -1,11 +1,14 @@
 ---
-title: God forgive me
-author: Kevin Powell
-date: 2021-06-01
+title: THE ART OF EXECUTION
+author: EL-CHE
+date: 2022-07-14
 image: \assets\images\older_posts\older_posts_4.jpg
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
---- 
+related:
+  - passion or duty
+  - n.l.p
+---
 
 THE STAGE AND THE SHADOW.
 You've got one shot, one moment, one opportunity to seize everything you ever wanted... Would you capture it or let it slip.

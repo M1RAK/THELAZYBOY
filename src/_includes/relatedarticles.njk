@@ -1,0 +1,47 @@
+      
+     
+ 
+       <!-- Older posts -->
+       
+    <section class="older-posts section">
+
+        <div class="container">
+           
+            <h2 class="title section-title" data-name="RELATED ">RELATED POSTS</h2>
+              
+            <div class="older-posts-grid-wrapper d-grid">
+                {% if related %}
+               {%- for post in collections.all | filterRelated(related) -%}
+      
+                <a href="{{ post.url }}" >
+                    <div class="older-posts-article-image-wrapper">
+                        <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" class="article-image">
+                    </div>
+
+                    <div class="article-data-container related">
+
+                        <div class="article-data">
+                            <span>{{ post.date | postDate }}</span>
+                            <span class="article-data-spacer"></span>
+                            <span>{{ post.data.length}}</span>
+                        </div>
+
+                        <h3 class="title article-title">{{ post.data.title }}</h3>
+                        <p class="article-description">{{post.data.description}}</p>
+
+                    </div>
+                </a>
+
+                {%- endfor -%}
+                {% endif %}
+            </div>  
+
+        </div>
+
+    </section>
+    </main>
+                    
+     
+                    {# related:
+  - another-awesome-post
+  - 11ty-review #}
