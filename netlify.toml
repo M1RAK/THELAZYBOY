@@ -2,4 +2,5 @@
   publish = "_site"
   command = "eleventy"
 
-  
+[redirects]
+/# /404.html

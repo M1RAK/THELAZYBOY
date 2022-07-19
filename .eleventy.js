@@ -19,6 +19,12 @@ module.exports = function (eleventyConfig) {
     )
   })
 
+  // eleventyConfig.addFilter(
+  //   "relative",
+  //   (page, root = "/") =>
+  //     `${require("path").relative(page.filePathStem, root)}/`
+  // )
+
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`)
 
   // Import prior to `module.exports` within `.eleventy.js`
@@ -45,8 +51,3 @@ module.exports = function (eleventyConfig) {
     },
   }
 }
-
-// eleventyConfig.addFilter(
-//   "relative",
-//   (page, root = "/") => `${require("path").relative(page.filePathStem, root)}/`
-// )

@@ -13,7 +13,8 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
-      - { label: "Author-about", name: "author-about", widget: "string" }
+      - { label: "Author-about", name: "authorabout", widget: "string" }
+      - { label: "Author-image", name: "authorimage", widget: "image" }
       - { label: "Post-length", name: "post-length", widget: "string" }
       - { label: "Tags", name: "tags", widget: "list", default: { "post" } }
       - { label: "Date", name: "date", widget: "datetime" }

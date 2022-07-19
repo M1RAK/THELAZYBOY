@@ -1,18 +1,107 @@
 ---
 title: WHY DO MY EYES HURT?
 author: ARA
-date: 2022-07-13
-length: 7 MIN READ
-image: \assets\images\older_posts\older_posts_1.jpg
+authorabout: A lazyboy with a little to much time in his hands
+date: 2022-07-19
+authorimage: \assets\images\PROFILE.jpg
+tags: ["featured", "redpill"]
+related:
+  - the blackpill
+  - you have no choice
+length: 5 MIN READ
+image: \assets\images\featured\THEREDPILL.jpg
 imageAlt: This is a test
-description: A short introduction to the redpill.
+description: THE FIFTEEN LAWS, by the famous soSauve blogger named POOk.
 ---
 
-The Red Pill is an online forum where men discuss what they believe are the social, political, and economic consequences of the feminist movement. They believe that society has been “feminized” to their detriment—emphasizing feelings over facts, and promoting that women are victims of oppression.
-The Red Pill is a term used in the manosphere to describe those who have woken up to the reality of gynocentrism and the ways it affects men. The term is used as a metaphor for the red pill that Morpheus offers Neo in The Matrix, which allows him to see past what he has been told about reality.
-The Red Pill is a subreddit on Reddit that is dedicated to sexual strategy in a culture of female entitlement. It was created about ten years ago by a man who uses the pseudonym "Pook."
-The Red Pill discusses what it calls the "sexual marketplace" and how to navigate it. The philosophy of the Red Pill is that male sexuality, or at least sexuality in general, is inherently different from female sexuality. The Red Pill's proponents believe that women are sexually attracted to men who possess qualities like social dominance, intelligence, and wealth but they also believe that these traits are not distributed equally among men.
-The most popular book on this topic is probably the book called "The Rational Male: The Complete Guide to the Basics" by Rollo Tomassi. This book can be seen as an extension of a thread on the Red Pill called "Why Women Shouldn't Have All the Power" that was started five years ago.The book The Rational Male is an extension of a thread on The Red Pill called "Why Women Shouldn't Have All the Power" that was started five years ago by Rollo Tomassi and continues to generate debate between feminists and male activists.
-RedPill Handbook is an online book written by Reddit user Pookah47 which provides advice on how to be more successful with women. The author claims that he was able to seduce any woman he wanted using his techniques. He also discusses his theories about female psychology and how it relates to sexual behavior.
-The Red Pill Handbook and Rational Male: The Complete Guide to the Basics are two books written by "red pillers" for other men. They are both guides on how men can navigate life as an average guy in this day and age, where feminism has made it difficult for them.
-The Red Pill Handbook: A Practical Guide to the Red Pill by Athol Kay, also known as "Roosh V" (a pseudonym), is a book that was published on February 2nd 2016. The book provides knowledge about what it means to be a man in today's society and how to be successful with women.
+### Nature will weed your genes out of existence if you do not learn how to attract women.
+
+ <blockquote class='quote'>
+<p><span><i class='ri-double-quotes-l'></i></span> The great question that has never been answered,
+ and which I have not yet been able to answer, despite my thirty years research into the feminine soul, is ‘What do women want?’ <span><i class='ri-double-quotes-r'></i></span></p>
+</blockquote>
+<small>Sigmund Freud, Psychologist</small>
+
+### Lesson 1: Actions not words
+
+> John called his girlfriend and asked her out. John was nervous, was scared; he
+> was shy.
+
+> “So we’re set for tomorrow night?”
+
+> “Umm, yeah,” she replied.
+
+> Then, tomorrow night came. John agonized over the date the entire day. How
+> should he act? What shall he wear? Did he have enough money? Would he be fun
+> enough?”
+
+> But poor John realized he was wasting his time worrying for there was no date.
+> He got stood up.
+
+> Obviously, there HAD to be a reason. Perhaps something awful happened. Perhaps
+> her car didn’t start. Perhaps some incredible thing occurred in her life AT THAT
+> TIME that kept apart the two star crossed lovers!
+
+> So he tried again. “Did we miscommunicate?”
+
+> “Oh, umm…Yeah.”
+
+> “You still want to go out?”
+
+> “Sure.”
+
+> “Let’s go out on this and this day. OK?”
+
+> “OK!”
+
+> That day comes. John gets stood up yet again.
+
+> But he rationalized it away. She did say she had things going on in her life. She did
+> say that she wanted to go out with him. She did say that she wouldn’t mind
+> spending time with him. Obviously, something had to have come up. After all, she
+> SAID she wanted to go!
+
+> So John calls again and sets up another date. Likewise, he got stood up AGAIN.
+> “Argh!” he screams to himself. “It is my fault. For I should…
+
+#### “Judge by actions, not by words.”
+
+> Pook then took the young man to a wall with a majestic painting on it. The painting
+> showed a young man, much like the young man in person, standing before a
+> feminine monster, a sphinx!
+
+“What is that monster?” cried the young man.
+
+“Why,” said the Pook,
+
+“it is All Women, Mother Nature herself! This nasty sphinx
+devours all hearts and lives of those who cannot answer her riddle. That man, in
+the picture, he figured out the riddle to Woman. Thus, he became known as Don
+Juan.”
+
+“And the answer to the riddle?”
+
+“Is that there is no riddle. Woman is a sphinx with no secret. It is only our minds
+that we assign her secrets, mysteries, pedestals, and goddess-like status.”
+
+> Pook noticed that the young man was confused so he elaborated.
+> “Look at the above example! Look at how the lad got stood up over and over and, yet, over and
+> over he rationalized the standing up! How often is it that a lad rationalizes ‘signals’
+> to his liking?
+
+How often is it that a lad offers gifts and treasures as sacrifices to her goddess-likeness for in his mind she is a goddess?
+How often is it that a lad’s overactive imagination converts her disrespect, her shallowness, her flaws, into love?”
+
+“So we paint the image we want to see?”
+
+“Exactly! Judge by her actions and not by her words. Judge by what she does than
+by what your mind wants to see. Our vanity will convert the image of every
+disinterested girl into secretly loving us (for women tell us what we want to hear).
+This is why we must judge by her actions and not by her words.'
+
+> So why did she leave?
+
+> #### REFERENCES
+
+- -[THE BOOK OF POOK](https://www.pdfdrive.com/the-book-of-pook-e24632070.html)
+- -[soSuave Forum](https://www.sosuave.com)

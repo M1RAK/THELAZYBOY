@@ -1,87 +1,62 @@
 let suggestions = [
-  "Channel",
-  "CodingLab",
-  "CodingNepal",
-  "YouTube",
-  "YouTuber",
-  "YouTube Channel",
-  "Blogger",
-  "Bollywood",
-  "Vlogger",
-  "Vechiles",
-  "Facebook",
-  "Freelancer",
-  "Facebook Page",
-  "Designer",
-  "Developer",
-  "Web Designer",
-  "Web Developer",
-  "Login Form in HTML & CSS",
-  "How to learn HTML & CSS",
-  "How to learn JavaScript",
-  "How to become Freelancer",
-  "How to become Web Designer",
-  "How to start Gaming Channel",
-  "How to start YouTube Channel",
-  "What does HTML stands for?",
-  "What does CSS stands for?",
+  "art of execution",
+  "a billion wicked thoughts",
+  "but i love u",
+  "the secret",
+  "fashion101",
+  "girls just wanna have fun",
+  "happily ever after",
+  "mind over matter",
+  "n.l.p",
+  "passion or duty",
+  "plate spinning theory",
+  "the backwards law",
+  "the blackpill",
+  "the hermetic principles",
+  "the hot ape",
+  "the sigma male",
+  "the torah code",
+  "the way of men",
+  "why do my eyes hurt",
+  "you have no choice",
 ]
-
-const searchWrapper = document.querySelector(".form")
-const inputBox = searchWrapper.querySelector("input")
-const suggBox = searchWrapper.querySelector(".autocom-box")
-const icon = searchWrapper.querySelector(".ri-search-line")
-let linkTag = searchWrapper.querySelector("a")
-let webLink
-
-// if user press any key and release
-inputBox.onkeyup = (e) => {
-  let userData = e.target.value //user enetered data
-  let emptyArray = []
-  if (userData) {
-    icon.onclick = () => {
-      webLink = `https://www.google.com/search?q=${userData}`
-      linkTag.setAttribute("href", webLink)
-      linkTag.click()
-    }
-    emptyArray = suggestions.filter((data) => {
-      //filtering array value and user characters to lowercase and return only those words which are start with user enetered chars
-      return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase())
-    })
-    emptyArray = emptyArray.map((data) => {
-      // passing return data inside li tag
-      return (data = `<li>${data}</li>`)
-    })
-    searchWrapper.classList.add("active") //show autocomplete box
-    showSuggestions(emptyArray)
-    let allList = suggBox.querySelectorAll("li")
-    for (let i = 0; i < allList.length; i++) {
-      //adding onclick attribute in all li tag
-      allList[i].setAttribute("onclick", "select(this)")
-    }
-  } else {
-    searchWrapper.classList.remove("active") //hide autocomplete box
-  }
+const searchWrapper = document.querySelector(".form"),
+  inputBox = searchWrapper.querySelector("input"),
+  suggBox = searchWrapper.querySelector(".autocom-box"),
+  icon = searchWrapper.querySelector(".ri-search-line")
+let linkTag = searchWrapper.querySelector("a"),
+  webLink
+function select(a) {
+  let b = a.textContent
+  ;(inputBox.value = b),
+    (icon.onclick = () => {
+      ;(webLink = `/blog/${b}`),
+        linkTag.setAttribute("href", webLink),
+        linkTag.click()
+    }),
+    searchWrapper.classList.remove("active")
 }
-
-function select(element) {
-  let selectData = element.textContent
-  inputBox.value = selectData
-  icon.onclick = () => {
-    webLink = `https://www.google.com/search?q=${selectData}`
-    linkTag.setAttribute("href", webLink)
-    linkTag.click()
-  }
-  searchWrapper.classList.remove("active")
+function showSuggestions(a) {
+  let b
+  ;(b = a.length ? a.join("") : `<li>${(userValue = inputBox.value)}</li>`),
+    (suggBox.innerHTML = b)
 }
-
-function showSuggestions(list) {
-  let listData
-  if (!list.length) {
-    userValue = inputBox.value
-    listData = `<li>${userValue}</li>`
-  } else {
-    listData = list.join("")
-  }
-  suggBox.innerHTML = listData
+inputBox.onkeyup = (d) => {
+  let e = d.target.value,
+    a = []
+  if (e) {
+    ;(icon.onclick = () => {
+      ;(webLink = `https://www.google.com/search?q=${e}`),
+        linkTag.setAttribute("href", webLink),
+        linkTag.click()
+    }),
+      (a = (a = suggestions.filter((a) =>
+        a.toLocaleLowerCase().startsWith(e.toLocaleLowerCase())
+      )).map((a) => (a = `<li>${a}</li>`))),
+      searchWrapper.classList.add("active"),
+      showSuggestions(a)
+    let c = suggBox.querySelectorAll("li")
+    for (let b = 0; b < c.length; b++)
+      c[b].setAttribute("onclick", "select(this)")
+  } else searchWrapper.classList.remove("active")
 }
